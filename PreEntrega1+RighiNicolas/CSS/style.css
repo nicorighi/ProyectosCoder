@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.iconos-redes-header{
+    width: 20px;
+    margin: 10px 5px;
+}
 
 body{
     font-family: sans-serif;
@@ -49,14 +53,24 @@ nav{
     text-align: right;
     padding: 30px 50px 0 0;
 }
-nav a {
+.nav-link {
     color: rgb(223, 223, 223);
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
-nav a:hover{
+.nav-link:hover{
     text-decoration: underline;
+    color: rgb(182, 182, 182);
+}
+
+.navbar-toggler{
+    border-color: rgb(102, 102, 102);
+    color: rgb(70, 70, 70);
+} 
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 28255, 28255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 
 header .textos-header{
